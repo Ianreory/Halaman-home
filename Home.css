@@ -1,0 +1,379 @@
+.skill {
+  width: 300px;
+  height: 720px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+}
+
+body {
+  background-color: rgb(224, 215, 224);
+  margin: 0px;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  margin-left: 320px;
+  padding: 20px;
+  width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+
+input {
+  padding: 6px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.awal {
+  margin: 20px;
+}
+
+.judul {
+  background-color: beige;
+  border-radius: 20px;
+  top: 80px;
+  right: 20px;
+  height: 200px;
+  position: absolute;
+  width: 1234px;
+}
+
+.judul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  font-family: cursive;
+}
+.judul > div > button {
+  padding: 10px;
+  border-radius: 10px;
+  width: 150px;
+  background-color: rgb(127, 127, 211);
+  font-family: cursive;
+}
+
+.isi {
+  background-color: beige;
+  border-radius: 20px;
+  top: 302px;
+  right: 354px;
+  height: 418px;
+  position: absolute;
+  width: 900px;
+}
+
+.unlock {
+  background-color: beige;
+  border-radius: 20px;
+  top: 302px;
+  right: 20px;
+  height: 180px;
+  position: absolute;
+  width: 310px;
+}
+
+.beast {
+  background-color: beige;
+  border-radius: 20px;
+  top: 504px;
+  right: 20px;
+  height: 214px;
+  position: absolute;
+  width: 310px;
+}
+
+.skill > .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.skill {
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  margin-right: 10px;
+  position: absolute;
+  width: 280px;
+  right: 6px;
+}
+li {
+  padding: 20px;
+  background-color: rgb(232, 225, 217);
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+
+li:hover {
+  background-color: aliceblue;
+}
+
+.uprate {
+  background-color: aqua;
+  width: 270px;
+  height: 120px;
+  position: absolute;
+  left: 50px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.uprate > div {
+  margin: 10px;
+}
+
+.item-upgate {
+  text-align: center;
+  position: relative;
+}
+
+.item-upgate > h3 {
+  margin-bottom: 0px;
+  font-family: cursive;
+}
+.item-upgate > p {
+  margin-top: 0px;
+  font-family: cursive;
+}
+
+.item-upgate + div {
+  background-color: rgb(65, 195, 65);
+  width: 130px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 0px;
+  margin-left: 53px;
+  border-radius: 10px;
+  font-family: cursive;
+  padding: 5px;
+  position: absolute;
+  bottom: 7px;
+}
+
+.judul > .img > img {
+  width: 174px;
+  margin-top: 10px;
+}
+
+.judul > .pertama > img {
+  width: 210px;
+}
+
+.populer {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.populer > div {
+  margin: 0px 10px;
+  font-family: cursive;
+}
+
+.isi1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.item-isi {
+  width: 200px;
+  height: 170px;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+.one {
+  width: 200px;
+  height: 170px;
+  background-color: aquamarine;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.item-isi > div {
+  margin: 5px;
+}
+
+.item-isi > div > .logo1 {
+  background-color: antiquewhite;
+  height: 120px;
+  text-align: center;
+}
+
+.item-tengah {
+  text-align: center;
+}
+.item-tengah > h4 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: cursive;
+}
+.item-tengah > p {
+  margin-top: 0px;
+}
+
+.header-unlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+}
+.header-unlock > div > h4 {
+  margin: 0px 0px 0px 0px;
+  font-family: cursive;
+}
+.header-unlock > div > p {
+  margin: 0px 0px;
+  font-family: cursive;
+}
+
+.unlock > div {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.tamu {
+  margin-top: 10px;
+}
+
+.tamu > div {
+  width: 291px;
+  height: 50px;
+  background-color: aqua;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.janji > div {
+  margin: 10px;
+}
+.tamu-tree > div {
+  margin: 10px;
+}
+
+.tamu-two {
+  margin-top: 7px;
+}
+
+.tamu-two > div {
+  margin-top: 7px;
+  margin: 10px;
+}
+
+.hiden {
+  border-radius: 30%;
+  width: 60px;
+  padding: 7px;
+  transition-duration: 2s;
+  transition-delay: 1s;
+}
+
+.hiden:hover {
+  background-color: green;
+}
+
+.beast > div {
+  margin: 10px;
+}
+
+.all {
+  font-family: cursive;
+  filter: opacity(50%);
+}
+
+.live {
+  background-color: rgb(220, 93, 120);
+  width: 70px;
+  padding: 7px;
+  border-radius: 13px;
+  color: white;
+}
+
+.profil {
+  background-color: aliceblue;
+  border-radius: 100%;
+  width: 35px;
+  height: 35px;
+  align-content: center;
+  text-align: center;
+}
+
+.liveone {
+  font-size: 22px;
+  border-radius: 13px;
+  color: white;
+}
+
+.item-atas {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  align-items: center;
+}
+
+li > i {
+  margin-right: 30px;
+}
+
+.gambar1 {
+  width: 140px;
+  height: 140px;
+  margin-bottom: 100px;
+}
+
+.gambar2 {
+  width: 140px;
+  height: 134px;
+}
+
+.gambar3 {
+  width: 100px;
+  height: 120px;
+}
+
+.gambar4 {
+  width: 130px;
+  height: 130px;
+}
+
+.gambar5 {
+  width: 130px;
+  height: 140px;
+}
+
+.gambar6 {
+  width: 130px;
+  height: 127px;
+}
+
+.gambar7 {
+  width: 130px;
+  height: 127px;
+}
+
+.gambar8 {
+  width: 140px;
+  height: 123px;
+}
+
+.klinik-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
